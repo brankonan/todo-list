@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      #taskList {
+        text-align: center;
+        border-style: double;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="taskList">
+      <h1>To-do list</h1>
+      <input type="text" id="taskInput" placeholder="Unesi novi task" />
+      <button onclick="addTask()">Dodaj</button>
+      <ul id="tasks">
+        Lista
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
